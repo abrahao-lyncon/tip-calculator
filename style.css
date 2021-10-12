@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(0,0,96);
+    background: linear-gradient(90deg, rgba(0,0,96,1) 18%, rgba(1,155,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin-top: 10%;
+    height: 425px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(5,22,96);
+    background: linear-gradient(233deg, rgba(5,22,96,1) 0%, rgba(1,87,255,1) 100%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px 1px black;
+}
+
+section h1, h2,input[type=button]{
+    margin: 10px;
+    color: white;
+}
+
+section h3{
+    margin-top:5px;
+    color:white;
+}
+
+section input[type=button]{
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(9, 56, 165);
+    outline: none;
+    border: none;
+    transition:.8s;
+    cursor:pointer;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+section input[type=button]:focus{
+    background-color: rgb(48, 83, 199);
+}
+
+section input[type=number]{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(18, 87, 214, 0.719);
+}
+
