@@ -29,6 +29,7 @@ section{
 section h1, h2,input[type=button]{
     margin: 10px;
     color: white;
+    font-weight: 400;
 }
 
 section h3{
@@ -37,6 +38,7 @@ section h3{
 }
 
 section input[type=button]{
+    font-size: 13pt;
     padding: 10px;
     text-align: center;
     background-color:rgb(9, 56, 165);
